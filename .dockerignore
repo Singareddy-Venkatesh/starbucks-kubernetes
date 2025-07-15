@@ -6,3 +6,6 @@ Dockerfile
 npm-debug.log
 *.log
 *.md
+.gitignore
+
+
