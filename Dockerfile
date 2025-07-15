@@ -8,7 +8,7 @@ WORKDIR /app
 COPY package.json package-lock.json /app/
 
 # Install dependencies
-RUN npm install
+RUN npm install --no-audit --no-fund --no-optional --no-cache
 
 # Copy the entire codebase to the working directory
 COPY . /app/
